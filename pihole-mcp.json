@@ -1,0 +1,30 @@
+{
+  "version": "0.5.0",
+  "description": "Pi-hole v6 MCP server — DNS blocking, domain management, statistics and network administration",
+  "homepage": "https://github.com/hexamatic/pihole-mcp",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v0.5.0/pihole-mcp_0.5.0_windows_amd64.zip",
+      "hash": "b2fcb94aa6bc5714eecb24245361848e6fa1c43550f636c75faeb37ac05fc305"
+    },
+    "arm64": {
+      "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v0.5.0/pihole-mcp_0.5.0_windows_arm64.zip",
+      "hash": "03dbd27f95a7848003393af73a9f38a247fbaf944714bd62d7cd9d61e77a6987"
+    }
+  },
+  "bin": "pihole-mcp.exe",
+  "checkver": {
+    "github": "https://github.com/hexamatic/pihole-mcp"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v$version/pihole-mcp_${version}_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v$version/pihole-mcp_${version}_windows_arm64.zip"
+      }
+    }
+  }
+}
