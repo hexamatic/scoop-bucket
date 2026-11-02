@@ -1,19 +1,19 @@
 {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v0.9.0/pihole-mcp_0.9.0_windows_amd64.zip",
+            "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v0.10.0/pihole-mcp_0.10.0_windows_amd64.zip",
             "bin": [
                 "pihole-mcp.exe"
             ],
-            "hash": "12d1ef863c803b20108c94db42c40f1adcdc1336acc0f0f9ff46af2a093a0b68"
+            "hash": "bdb5af272a27d89b3769a01ba94fc22e17b64da2002cea2a0b5c3f1e7718b1f5"
         },
         "arm64": {
-            "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v0.9.0/pihole-mcp_0.9.0_windows_arm64.zip",
+            "url": "https://github.com/hexamatic/pihole-mcp/releases/download/v0.10.0/pihole-mcp_0.10.0_windows_arm64.zip",
             "bin": [
                 "pihole-mcp.exe"
             ],
-            "hash": "8df25b57b8dbedaa437d8097f039cd779f4f485a081d68366a31798b11a19306"
+            "hash": "4d782ee47cf9197767ecb968ad3f5d755d39a25f2e36d7b0e8573636abb954e3"
         }
     },
     "homepage": "https://github.com/hexamatic/pihole-mcp",
